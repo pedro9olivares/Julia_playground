@@ -1,4 +1,3 @@
-
 # We create an undirected, adjacency list graph with generic vertices
 Base.@kwdef struct Graph{T}
     vertices::Vector{T}
